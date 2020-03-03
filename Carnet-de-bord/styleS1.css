@@ -1,0 +1,50 @@
+/*Style qui concernen toute la page*/
+body {
+    margin: 0;
+    background: url("images/fond_noir.png");
+    font-family: lato;
+    color: white;
+}
+
+/*Style pour le haut de la page*/
+#bouton_acceuil{
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    text-decoration: none;
+    border-radius: 9px; 
+}
+
+.topnav {
+    list-style-type: none;
+    display: flex;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    border-bottom: 2px solid white
+}
+
+header h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+/*Style pour le corps de la page*/
+
+/*Style pour le bas de la page*/
+#footer{
+    background:rgba(4, 4, 116, 0.897);
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+  }

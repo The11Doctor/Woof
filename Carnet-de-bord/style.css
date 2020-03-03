@@ -1,0 +1,110 @@
+/*Style qui concernen toute la page*/
+body {
+    margin: 0;
+    background: url("images/fond_noir.png");
+    font-family: lato;
+    color: white;
+}
+
+/*Style pour le haut de la page*/
+#bouton_acceuil{
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    text-decoration: none;
+    border-radius: 9px; 
+}
+
+.topnav {
+    list-style-type: none;
+    display: flex;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    border-bottom: 2px solid white
+}
+
+header h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+/*Style pour le corps de la page*/
+section p, h1 {
+    text-align: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#mouvement{
+    float: left;
+    position: relative;
+    margin-left: 2%;
+    margin-bottom: 25px;
+    width: 48%;
+    background-color: yellow;
+    color: black;
+    border-radius: 9px;
+}
+
+#photo1{
+    float: right;
+    position: relative;
+    border-radius: 9px;
+    margin-left: 4%;
+    width: 44%;
+    margin-bottom: 15px;
+    margin-right: 2%;
+}
+
+#row2::after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+#ultrasons{
+    float: right;
+    position: relative;
+    margin-right: 2%;
+    margin-bottom: 25px;
+    width: 44%;
+    background-color: yellow;
+    color: black;
+    border-radius: 9px;
+}
+
+#photo2{
+    float: left;
+    position: relative;
+    margin-left: 2%;
+    width: 48%;
+    margin-right: 4%;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+
+/*Style pour le bas de la page*/
+#footer{
+    background:rgba(4, 4, 116, 0.897);
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+  }
