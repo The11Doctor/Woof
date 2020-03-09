@@ -14,7 +14,6 @@ void setup() {
   pinMode(ENB, OUTPUT); 
   digitalWrite(ENA, HIGH);
   digitalWrite(ENB, HIGH);
-
 }
 
 void loop() {
