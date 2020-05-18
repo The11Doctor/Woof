@@ -13,7 +13,7 @@ int rightDistance = 0, leftDistance = 0, middleDistance = 0;
 #define IN2 8
 #define IN3 9
 #define IN4 11
-#define carSpeed 200
+#define carSpeed 175
 
 //// Fonctions pour le mouvement
 void forward(){ 
@@ -101,7 +101,7 @@ void loop() {
   delay(500);
   middleDistance = testDistance(); //Distance d'un potentiel objet devant lui
 
-  if (middleDistance <=40) //Dans le cas où il y a un objet
+  if (middleDistance <=50) //Dans le cas où il y a un objet
   {
     stop();
     delay(500);
@@ -122,13 +122,13 @@ void loop() {
 
     if(rightDistance < leftDistance){
       left(); 
-      delay(360); 
+      delay(280); 
       }
     else if(leftDistance < rightDistance){
       right();
-      delay(360); 
+      delay(280); 
       }
-    else if((rightDistance <= 40) || (leftDistance <=40)) {
+    else if((rightDistance <= 50) || (leftDistance <= 50)) {
       backward();
       delay(200); 
       }
