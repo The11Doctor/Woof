@@ -12,10 +12,11 @@
             <a href="index.html" id="bouton_acceuil"><img src="images/bouton_acceuil.png" alt="bouton bouton_acceuil"></a>
                 <div class="topnav" id="myTopnav"> 
                     <li><a href="semaine1.html">Semaine 1 </a></li>
-                    <li><a href="semaine2.html">Semaine 2</a></li>
-                    <li><a href="confinement.html">Confinement</a></li>
-                    <li><a href="semaine5.html">Semaine 5</a></li>
-                    <li><a href="semaine6.html">Semaine 6</a></li>
+                    <li><a href="semaine.html">Semaine 2</a></li>
+                    <li><a href="confinemen.html">Confinement</a></li>
+                    <li><a href="semaine.html">Semaine 5</a></li>
+                    <li><a href="semaine.html">Semaine 6</a></li>
+                    <li><a href="feuilleDeRout.html">Feuille de Route</a></li>
                     <!-- <li><a href="semaine2.html">Semaine 6</a></li>
                     <li><a href="semaine2.html">Semaine 7</a></li>
                     <li><a href="semaine2.html">Semaine 8</a></li>
@@ -27,29 +28,29 @@
         <section>
             <article>
                 <p>Bienvenue sur le site du Projet ISN Woof ! <br>
-                Ce projet a pour but de construir et programmer un chien robot capable d'aller chercher une balle et de la ramener à son maître. <br>
+                Ce projet a pour but de construire et programmer un chien robot capable d'aller chercher une balle et de la ramener à son maître. <br>
                 Evidement, ce n'est pas une tâche aisée, et nous allons décomposer cela en plusieurs étapes et objectifs de construction et programmation. <br>
                 Vous trouverez les grandes ligne de notre organisation sur cette page, et pourrez suivre notre évolution semaine par semaine en cliquant sur les onglets corresponsants. 
                 </p>
+
+                <h2>Présentation du Projet</h2>
+                <p id="intro">À la suite d’une fructueuse période de réflexion, nous avons eu l’idée de créer un objet unique en son genre : un chien électronique. Mais attention, pas n’importe quel chien : un chien capable de jouer avec vous, son maître. </p>
+                <p id="intro">Baptisé WOOF, il sera capable de repérer, récupérer et ramener la balle que vous lui aurez lancée. Bien entendu, cela est un très projet très ambitieux qui suppose une montagne de défis – du plus banal au plus complexe. </p>
             </article>
 
             <div id="row1">
                 <div id="mouvement">
-                    <h1>Texte qui explique le mouvement</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius odio malesuada volutpat fringilla. Aliquam gravida, tortor sit amet porta scelerisque, neque enim egestas erat, vel rutrum dui sapien et turpis. Nullam rhoncus eu sem ut dictum. Vivamus risus justo, finibus at nisl at, facilisis viverra lacus. Proin pretium enim nec lacus aliquet scelerisque. Aliquam ornare efficitur ex, ut vestibulum orci lobortis eu. Maecenas faucibus feugiat imperdiet. Cras lacus ligula, interdum et sagittis eget, dictum eget felis. Morbi euismod nisl vel feugiat sollicitudin. Pellentesque et sodales erat.
-                        Nullam scelerisque nisi eget varius molestie. Duis in laoreet nunc, non imperdiet dui. Suspendisse potenti. Pellentesque nisi libero, ultrices a odio vel, feugiat ultrices nisl. Aenean elementum accumsan odio. Integer vitae nisl ultricies, semper ligula ac, laoreet purus. Nulla et enim at libero bibendum semper. Donec non dictum odio, quis consequat turpis. Maecenas nisl dolor, dignissim eu mollis vestibulum, egestas a erat.
-                        Maecenas in nisi consectetur leo rutrum pretium quis ac odio. Fusce gravida, tortor quis pharetra dapibus, eros ligula cursus enim, convallis dapibus sapien turpis non enim. Phasellus eu mi dolor. Suspendisse eu feugiat nibh. Nunc eu elit a tortor blandit volutpat nec eu dolor. Maecenas dapibus erat lobortis, venenatis ante quis, lacinia orci. Mauris ut porta lectus, vitae viverra elit. Integer quam lectus, rutrum sit amet pretium eu, commodo et neque. Pellentesque facilisis magna eget nulla sodales ullamcorper sed in tortor. In hac habitasse platea dictumst. Etiam interdum arcu ante, id molestie turpis iaculis ac. Nunc consequat ornare tortor quis sagittis. Fusce justo ante, egestas at dui ac, dictum sagittis dui.
-                    </p>
+                    <h1>Comment Woof se déplace-t-il ?</h1>
+                    <p>À travers les nombreux pins de la carte Arduino, il est possible d'envoyer un courant de 5V. En envoyant une ligne de commande on peut activer un pin spécifique et ainsi faire passer le courant. Nous avons relier notre carte à un shield qui contrôle les quatres moteurs autour du chassis. Deux pins permettent de gérer la puissance des moteurs avants et arrières, et quatre autres permettent de contrôler le sens de rotation de chacun des roues. Ainsi il est possible de faire avancer Woof dans toutes les directions, en jouant sur le sens de rotation des roues à l'intérieur et à l'extérieur d'une courbe notament.</p>
                 </div>
                 <img src="images/Woof_Gauche.jpg" alt="Woof_gauche" id="photo1">
             </div>
 
             <div id="row2">
                 <div id="ultrasons">
-                    <h1>Texte qui explique les ultrasons</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius odio malesuada volutpat fringilla. Aliquam gravida, tortor sit amet porta scelerisque, neque enim egestas erat, vel rutrum dui sapien et turpis. Nullam rhoncus eu sem ut dictum. Vivamus risus justo, finibus at nisl at, facilisis viverra lacus. Proin pretium enim nec lacus aliquet scelerisque. Aliquam ornare efficitur ex, ut vestibulum orci lobortis eu. Maecenas faucibus feugiat imperdiet. Cras lacus ligula, interdum et sagittis eget, dictum eget felis. Morbi euismod nisl vel feugiat sollicitudin. Pellentesque et sodales erat.
-                        Nullam scelerisque nisi eget varius molestie. Duis in laoreet nunc, non imperdiet dui. Suspendisse potenti. Pellentesque nisi libero, ultrices a odio vel, feugiat ultrices nisl. Aenean elementum accumsan odio. Integer vitae nisl ultricies, semper ligula ac, laoreet purus. Nulla et enim at libero bibendum semper. Donec non dictum odio, quis consequat turpis. Maecenas nisl dolor, dignissim eu mollis vestibulum, egestas a erat.
-                        Maecenas in nisi consectetur leo rutrum pretium quis ac odio. Fusce gravida, tortor quis pharetra dapibus, eros ligula cursus enim, convallis dapibus sapien turpis non enim. Phasellus eu mi dolor. Suspendisse eu feugiat nibh. Nunc eu elit a tortor blandit volutpat nec eu dolor. Maecenas dapibus erat lobortis, venenatis ante quis, lacinia orci. Mauris ut porta lectus, vitae viverra elit. Integer quam lectus, rutrum sit amet pretium eu, commodo et neque. Pellentesque facilisis magna eget nulla sodales ullamcorper sed in tortor. In hac habitasse platea dictumst. Etiam interdum arcu ante, id molestie turpis iaculis ac. Nunc consequat ornare tortor quis sagittis. Fusce justo ante, egestas at dui ac, dictum sagittis dui.
+                    <h1>Comment adapter Woof à son environement</h1>
+                    <p>
+                        Pour éviter que Woof se fasse mal durant ses nombreux parcours, nous lui avons installer un émetteur/récepteur d'ultra-sons qui lui permet d'éviter les obstacles. En envoyant du courrant à traver un pin de la carte, on enclenche un système dans l'émetteur/récepteur qui envoie continuellement des ultra-sons à un intervalle régulier et calcul le retard de l'onde, autrement dit le temps qu'il faut à ces ultra-sons pour lui revenir. Ainsi avec une division très simple, on peut connaître la distance à laquelle se trouve l'environement de Woof, c'est à dire les murs, les objets etc... Puis à l'aide d'un algorithme de décision simple basé sur une boucle if, Woof tourne vers l'endroit où la distance est la plus importante. Ainsi il évite de se cogner. 
                     </p>
                 </div>
                 <img src="images/Woof_Face.jpg" alt="woof face" id="photo2">

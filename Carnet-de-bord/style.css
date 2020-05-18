@@ -2,8 +2,12 @@
 body {
     margin: 0;
     background: url("images/fond_noir.png");
-    font-family: lato;
+    font-family: 'Calibri';
     color: white;
+}
+
+h1 {
+    font-family: 'Cambria';
 }
 
 /*Style pour le haut de la page*/
@@ -19,9 +23,9 @@ body {
 .topnav {
     list-style-type: none;
     display: flex;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
   
 .topnav a {
@@ -71,6 +75,10 @@ section p, h1 {
     margin-left: 4px;
 }
 
+#intro{
+    text-align: justify;
+}
+
 #row1::after{
     content: "";
     display: table;
@@ -86,6 +94,12 @@ section p, h1 {
     background-color: yellow;
     color: black;
     border-radius: 9px;
+}
+
+#mouvement p {
+    text-align: justify;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 #photo1{

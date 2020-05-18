@@ -2,8 +2,12 @@
 body {
     margin: 0;
     background: url("images/fond_noir.png");
-    font-family: lato;
+    font-family: 'Calibri';
     color: white;
+}
+
+h1 {
+    font-family: 'Cambria';
 }
 
 /*Style pour le haut de la page*/
@@ -19,9 +23,9 @@ body {
 .topnav {
     list-style-type: none;
     display: flex;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
   
 .topnav a {
